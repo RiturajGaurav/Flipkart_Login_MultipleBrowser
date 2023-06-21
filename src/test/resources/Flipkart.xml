@@ -1,0 +1,16 @@
+<suite name="Flipkart">
+	<test name="Flipkart functional Testing on firefox">
+	<parameter name="browser" value="firefox"/>
+		<classes>
+			<class name="base.Base"/>
+			<class name="functionalTesting.FlipkartTesting"/>
+		</classes>
+	</test>
+	<test name="Flipkart functional Testing on chrome">
+	<parameter name="browser" value="chrome"/>
+		<classes>
+			<class name="base.Base"/>
+			<class name="functionalTesting.FlipkartTesting"/>
+		</classes>
+	</test>
+</suite>
